@@ -1,8 +1,22 @@
-# 💓 HEARTBEAT.md Templates
+# Heartbeat Templates
+
+[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Built%20for-Claude%20Code-orange.svg)](https://claude.ai/code)
+[![TinMan](https://img.shields.io/badge/Works%20with-TinMan-blue.svg)](https://github.com/andyuninvited/tinman_for_claudecode)
 
 > Community templates for [TinMan](https://github.com/andyuninvited/tinman_for_claudecode) — the heartbeat scheduler for Claude Code.
 
 Drop any of these into your project as `HEARTBEAT.md` and TinMan will run it on a schedule. Edit freely — these are starting points, not rules.
+
+---
+
+## Part of the Claude Code Toolkit
+
+| Tool | Role | Link |
+|------|------|------|
+| **TinMan** | The heart — runs these templates on a schedule | [tinman_for_claudecode](https://github.com/andyuninvited/tinman_for_claudecode) |
+| **C3Poh** | The voice — sends alerts to your phone | [c3poh_for_claudecode](https://github.com/andyuninvited/c3poh_for_claudecode) |
+| **Agent Blueprints** | The brains — starter agent templates | [agent-blueprints](https://github.com/andyuninvited/agent-blueprints) |
 
 ---
 
@@ -37,6 +51,14 @@ tinman init
 ```
 
 That's it. TinMan picks up `HEARTBEAT.md` from your project directory automatically.
+
+**4. (Optional) Get alerts on your phone:**
+```bash
+pip install c3poh-for-claudecode
+c3poh init
+```
+
+Then enable C3Poh notifications in TinMan's config.
 
 ---
 
@@ -82,4 +104,14 @@ One template per file, named `NN-descriptive-name.md`. Add it to the table in th
 
 - [TinMan](https://github.com/andyuninvited/tinman_for_claudecode) — the heartbeat scheduler these templates run on
 - [C3Poh](https://github.com/andyuninvited/c3poh_for_claudecode) — Telegram bridge so heartbeat alerts reach your phone
-- Community: [t.me/tinmanc3poh](https://t.me/tinmanc3poh)
+- [Agent Blueprints](https://github.com/andyuninvited/agent-blueprints) — starter templates for more complex agents
+
+---
+
+## License
+
+GNU GPLv3
+
+---
+
+*Built by [@andyuninvited](https://github.com/andyuninvited)*
